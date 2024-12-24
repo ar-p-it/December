@@ -1,0 +1,87 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 1vw;
+  background-color: #e7e752;
+}
+.logo-container {
+  margin-left: 10px;
+  mix-blend-mode: darken;
+  display: flex;
+  flex: content;
+  /* width: 100px; */
+}
+.logo {
+  width: 120px;
+}
+.nav-items > ul {
+  display: flex;
+  margin-right: 50px;
+}
+.nav-items > ul > li {
+  margin: 20px;
+}
+.restaurant-container {
+  /* display: flex;
+  align-items: start;
+  flex-wrap: wrap; */
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: flex-start;
+  background-color: #d4c9ce;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.restaurantcards {
+  /* width: 300px;
+
+  padding: 1vw;
+  margin: 5px; */
+
+  flex: 0 1 250px;
+  background-color: #ab2f2f61;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.restaurantcards:hover {
+  border: 1px solid black;
+  cursor: pointer;
+
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.search {
+  padding: 10px;
+}
+.res-logo {
+  width: 100%;
+}
+
+/* Responsive adjustments */
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.shimmer-card {
+  margin: 20px;
+  width: 200px;
+  height: 400px;
+  background-color: #f0f0f0
+}
+.login {
+  padding: 0 20px;
+  cursor: pointer;
+}
+.filter {
+  display: flex;
+}
